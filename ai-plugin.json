@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://TU_USUARIO.github.io/joseph-plugin/openapi.yaml"
+    "url": "https://joherped.github.io/joseph-plugin/openapi.yaml"
   },
-  "logo_url": "https://TU_USUARIO.github.io/joseph-plugin/logo.png",
+  "logo_url": "https://joherped.github.io/joseph-plugin/logo.png",
   "contact_email": "tucorreo@ejemplo.com",
-  "legal_info_url": "https://TU_USUARIO.github.io/joseph-plugin/legal"
+  "legal_info_url": "https://joherped.github.io/joseph-plugin/legal"
 }
