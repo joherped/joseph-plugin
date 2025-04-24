@@ -11,7 +11,5 @@
     "type": "openapi",
     "url": "https://joherped.github.io/joseph-plugin/openapi.yaml"
   },
-  "logo_url": "https://joherped.github.io/joseph-plugin/logo.png",
-  "contact_email": "tucorreo@ejemplo.com",
-  "legal_info_url": "https://joherped.github.io/joseph-plugin/legal"
+  "contact_email": "josemiguel@tucorreo.com"
 }
