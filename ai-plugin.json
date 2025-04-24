@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "joseph_perito",
+  "name_for_human": "Joseph - Perito Técnico",
+  "description_for_model": "Consulta técnica pericial sobre informes de daños eléctricos e industriales.",
+  "description_for_human": "Asistente pericial técnico que responde sobre siniestros eléctricos y de daños industriales.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://TU_USUARIO.github.io/joseph-plugin/openapi.yaml"
+  },
+  "logo_url": "https://TU_USUARIO.github.io/joseph-plugin/logo.png",
+  "contact_email": "tucorreo@ejemplo.com",
+  "legal_info_url": "https://TU_USUARIO.github.io/joseph-plugin/legal"
+}

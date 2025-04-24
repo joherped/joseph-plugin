@@ -1,0 +1,36 @@
+openapi: 3.0.1
+info:
+  title: Joseph - API Pericial
+  description: API para realizar consultas vectoriales periciales a Joseph.
+  version: "1.0"
+servers:
+  - url: https://joseph-pasarela.onrender.com
+paths:
+  /consulta:
+    post:
+      operationId: consultaInforme
+      summary: Realiza una consulta vectorial entre los informes periciales.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                  description: Texto de la consulta
+                n_resultados:
+                  type: integer
+                  description: Número de resultados a devolver
+                  default: 5
+      responses:
+        '200':
+          description: Respuesta con los resultados más similares
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  resultados:
+                    type: object
