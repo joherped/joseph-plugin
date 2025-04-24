@@ -33,4 +33,13 @@ paths:
                 type: object
                 properties:
                   resultados:
-                    type: object
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          description: ID del documento
+                        texto:
+                          type: string
+                          description: Fragmento del informe relacionado
