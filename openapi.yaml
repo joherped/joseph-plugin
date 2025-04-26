@@ -31,7 +31,7 @@ components:
     ConsultaRequest:
       type: object
       properties:
-        query:
+        mensaje:
           type: string
           description: Texto de la consulta
           example: daños por cortocircuito en cuadro eléctrico
